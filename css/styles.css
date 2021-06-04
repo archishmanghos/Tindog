@@ -1,0 +1,221 @@
+/********************************************** tags *********************************************/
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+em {
+  color: #fff;
+  padding-left: 1.25rem;
+}
+
+h1 {
+  font-family: "Courgette", cursive;
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 0 5rem 2.5rem 5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+  padding-bottom: 2rem;
+}
+
+/*********************************************** classes ********************************************/
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.card-column {
+  padding: 0.625rem 1rem;
+}
+
+.card-heading {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.card-row {
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 3.125rem 12.5rem;
+}
+
+.cta-button {
+  font-weight: 500;
+}
+
+.cta-header {
+  color: #fff;
+  font-size: 3.125rem;
+  line-height: 1.5;
+  padding: 0 15.625rem 2.125rem 15.625rem;
+}
+
+.download-button {
+  margin: 2.5rem 1.25rem 0 0;
+}
+
+.download-img {
+  width: 5%;
+  height: 5%;
+}
+
+.feature-1 {
+  color: #ef8172;
+  text-align: center;
+  width: 100%;
+  font-size: 400%;
+  padding-bottom: 1.25rem;
+}
+
+.feature-1:hover {
+  color: #ff4c68;
+}
+
+.feature-column {
+  padding: 5rem 3.125rem 5rem 3.125rem;
+}
+
+.feature-2 {
+  text-align: center;
+}
+
+.feature-row {
+  padding: 9.375rem 12.5rem 12.5rem 12.5rem;
+}
+
+.footer-icon {
+  padding: 0.625rem;
+}
+
+.footer-div {
+  padding-top: 2rem;
+}
+
+.footer-para {
+  padding: 0;
+}
+
+.less-list {
+  padding-bottom: 1.4375rem;
+}
+
+.navbar {
+  margin-bottom: 6.25rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.nav-item {
+  margin: 0 1.25rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.press-logo {
+  width: 20%;
+  padding: 0 1.5625rem;
+}
+
+.pricing-heading {
+  color: #000;
+  padding-bottom: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.pricing-para {
+  text-align: center;
+}
+
+.testimonial-img {
+  border-radius: 100%;
+  width: 10%;
+}
+
+.title-iphone-img {
+  width: 60%;
+  position: absolute;
+  right: 1.2rem;
+  transform: rotate(20deg);
+}
+
+/********************************************** IDs *********************************************/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  padding: 6.25rem 0 8rem;
+}
+
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 6.25rem 0 3.125rem;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 6.25rem 10.9375rem;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+#pricing {
+  padding: 6.25rem;
+}
+
+/**************************************** media query breakpoints *************************************/
+
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-iphone-img {
+    position: relative;
+    transform: rotate(0);
+    padding-top: 50px;
+  }
+}
